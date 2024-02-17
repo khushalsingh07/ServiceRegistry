@@ -1,0 +1,29 @@
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#
+spring:
+  application:
+    name: Service Registry
+
+server:
+  port: 8761
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - "*"
+#      base-path: /manage
+#If we give the base path attribute here /actuator will change by /manage keyword
+
+
+
+
+
