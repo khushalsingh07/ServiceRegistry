@@ -9,7 +9,7 @@ eureka:
 #
 spring:
   application:
-    name: Service Registry
+    name: SERVICE-rEGISTRY
 
 server:
   port: 8761
